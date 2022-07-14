@@ -11,9 +11,9 @@ const App: React.FC = () => {
             <Header/>
             <ScrollToTop/>
             <Routes>
-                <Route path="/intro" element={<Intro/>}/>
                 <Route path="/about-me" element={<Intro/>}/>
-                <Route path="*" element={<Navigate to="/intro"/>}/>
+                <Route path="/resume" element={<Intro/>}/>
+                <Route path="*" element={<Navigate to="/about-me"/>}/>
             </Routes>
         </div>
     );

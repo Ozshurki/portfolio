@@ -1,0 +1,11 @@
+.intro-content{
+    min-height: 250px;
+    width: 40%;
+    margin-top: 50px;
+    padding-left: 10px;
+    display:flex;
+    justify-content: center;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}

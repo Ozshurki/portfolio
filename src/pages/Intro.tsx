@@ -1,14 +1,14 @@
-import React, {useEffect} from "react";
-import {useLocation} from "react-router-dom";
+import React from "react";
+import IntroContent from "../components/intro-content/IntroContent";
+import IntroImage from "../components/intro-image/IntroImage";
+import "./intro.css";
+const Intro: React.FC = () => {
 
-
-const Intro:React.FC = () =>{
-
-    return(
+    return (
         <div className="intro-page">
-
+            <IntroContent/>
         </div>
-    )
-}
+    );
+};
 
 export default Intro;

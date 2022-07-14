@@ -16,11 +16,6 @@ const Header: React.FC = () => {
                         animate={{y: 0, opacity: 1, transition: {delay: 0.1, type: "spring", duration: 0.6}}}
             >Portfolio</motion.div>
             <div className="header-content">
-                <HeaderBtn className="intro"
-                           text="Intro"
-                           sliceRange={6}
-                           delay={0.2}
-                           path="/intro"/>
                 <HeaderBtn className="about-me"
                            text="About me"
                            sliceRange={9}
