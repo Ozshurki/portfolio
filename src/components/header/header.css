@@ -1,0 +1,42 @@
+.header{
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: auto;
+    width: auto;
+    margin-left: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.header-content{
+    height: 100%;
+    width: auto;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.header-content div{
+    height: auto;
+    width: auto;
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+
