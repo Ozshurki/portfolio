@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
+
 .header{
     height: 80px;
     width: 100vw;
@@ -14,8 +16,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
-    cursor: pointer;
+    font-size: 1.3rem;
+    font-family: 'Spectral', serif;
 }
 
 .header-content{
@@ -34,9 +36,15 @@
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     cursor: pointer;
+    font-family: 'Spectral', serif;
 }
 
+.cur-path{
+    border-bottom: 1px solid white;
+}
 
-
+.header a{
+    text-decoration: none;
+}
