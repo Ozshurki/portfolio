@@ -11,7 +11,7 @@
     height: auto;
     width: auto;
     margin-left: 40px;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,14 +34,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
     font-size: 1.3rem;
     cursor: pointer;
     font-family: 'Spectral', serif;
 }
 
 .cur-path{
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid #7510F7;
+    border-radius: 2px;
 }
 
 .header a{

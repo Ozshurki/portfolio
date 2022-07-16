@@ -3,14 +3,15 @@ import "./introContent.css";
 
 const IntroContent: React.FC = () => {
     return (
-        <>
-            <p className="intro-content">Hello, I'M Oz
-                Bachelor Of Science (Bs.C) In Computer Science<br/> <br/><br/><br/>
-                Front end / Full stack developer using React with background knowledge of MERN stacks with redux, along
-                with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to
-                be an asset for an organization.<br/>
-            </p>
-        </>
+        <div className="intro-content">
+            <h2>Full-stack / Front-end Developer</h2>
+            <h3>I build End-to-End websites using React and Node.js with pure CSS. <br/>
+                I design and code beautifully things.</h3>
+            <div className="img-container">
+                <img src="http://mattfarley.ca/img/mf-avatar.svg" alt="img-face"/>
+                <img src="http://mattfarley.ca/img/hero.svg" alt="desk"/>
+            </div>
+        </div>
     );
 };
 export default IntroContent;

@@ -1,11 +1,43 @@
-.intro-content{
-    min-height: 250px;
-    width: 40%;
+.intro-content {
+    min-height: 500px;
+    width: 100%;
     margin-top: 50px;
-    padding-left: 10px;
-    display:flex;
-    justify-content: center;
-    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     letter-spacing: 2px;
     font-size: 1.2rem;
+    text-align: center;
 }
+
+.intro-content h2, .intro-content h3{
+    width: auto;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-content img:nth-child(1){
+    height: 150px;
+    margin: 40px;
+}
+
+.intro-content img:nth-child(2){
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
