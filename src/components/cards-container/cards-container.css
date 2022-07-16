@@ -14,6 +14,7 @@
 .col{
     width: 300px;
     height: 400px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -22,6 +23,7 @@
 .col p{
     margin: 15px;
     font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.2px;
 }
 
 .cards-container .icon-container{
@@ -32,25 +34,15 @@
     align-items: center;
 }
 
-.cards-container > div:first-child,
-.cards-container > div:last-child{
-    border-radius: 10px;
-}
-
 .cards-container > div:nth-child(2){
-    border-left: 1px solid #E6ECF8;
-    border-right: 1px solid #E6ECF8;
+        border-left: 1px solid #E6ECF8;
+        border-right: 1px solid #E6ECF8;
 }
 
 .dev-tools-container{
     height: auto;
     display: flex;
     justify-content: space-evenly;
-}
-
-.dev-tools-container div{
-    border-right: 1px solid #E6ECF8;
-    border-left: 1px solid #E6ECF8;
 }
 
 .cards-container ul{
@@ -68,18 +60,33 @@
     transition: all .3s ease-in-out;
 }
 
+.cards-container a{
+    text-decoration: none;
+}
+
+.col:last-child > p:last-child{
+    border-top: 1px solid #E6ECF8;
+    padding-top: 10px;
+}
+
+.cards-container strong{
+    font-size: 1.2rem;
+}
+
 @media (max-width: 915px) {
     .cards-container{
         flex-direction: column;
     }
 
-    .cards-container .col{
-        border-bottom: 1px solid #E6ECF8;
-        border-radius: 0;
-        margin-bottom: 60px;
+    .cards-container > div:nth-child(2){
+        border-left: 0 solid #E6ECF8;
+        border-right: 0 solid #E6ECF8;
+
     }
 
-    .cards-container > div:nth-child(2){
-        border: 0;
+    .cards-container .col{
+        border-bottom: 1px solid #E6ECF8;
     }
+
+
 }

@@ -51,6 +51,14 @@ const CardsContainer: React.FC = () => {
                 <p>February 2020 - January 2022</p>
                 <p>Full Stack developer at DevInt <br/>
                     DevInt developed websites for small business</p>
+                <p>Also leading End-to-End projects on my own -
+                    <br/> <br/>
+                    <span>
+                        <a href="https://github.com/Ozshurki/nofar-ecommerce" target="_blank">
+                            <strong>Example</strong>
+                        </a>
+                    </span>
+                </p>
             </div>
         </div>
     );
