@@ -23,6 +23,7 @@
     margin: 15px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
+    font-weight: 600;
 }
 
 .cards-container .icon-container{
@@ -51,6 +52,7 @@
 .cards-container li{
     margin: 10px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .cards-container li:hover{

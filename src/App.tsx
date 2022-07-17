@@ -9,6 +9,7 @@ import Header from "./components/header/Header";
 import ScrollToTop from "./components/scroll-to-top/ScrollToTop";
 import Modal from "./components/modal/Modal";
 import ModalMsg from "./components/modal/modal-msg/ModalMsg";
+import SideBar from "./components/side-bar/SideBar";
 
 
 
@@ -20,6 +21,7 @@ const App: React.FC = () => {
     return (
         <div className="App">
             <Header/>
+            <SideBar/>
             <ScrollToTop/>
             <Routes>
                 <Route path="/about-me" element={<Intro/>}/>

@@ -1,5 +1,6 @@
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
 import React from "react";
+import Typewriter from "typewriter-effect";
 
 import "./introContent.css";
 import {useDispatch} from "react-redux";
@@ -12,9 +13,13 @@ const IntroContent: React.FC = () => {
 
     return (
         <div className="intro-content">
-            <h2>Full-stack / Front-end Developer</h2>
-            <h3>I build End-to-End websites using React and Node.js with pure CSS<br/>
-                I design and code beautifully things</h3>
+            <Typewriter
+                onInit={(typewriter => {
+                    typewriter.changeDelay(50).typeString('Full-stack / Front-end Developer <br/>' +
+                        'I build End-to-End websites using React and Node.js with pure CSS<br/>\n' +
+                        '                I design and code amazing things <br/>' +
+                        'This portfolio was made by me for you guys :)').start();
+                })}/>
             <div className="img-container">
                 <motion.div className="cloud-container">
                     <motion.div className="click-me"> Click Me!</motion.div>
@@ -23,7 +28,7 @@ const IntroContent: React.FC = () => {
                 <motion.div className="avatar-container" whileHover={{rotate: 15}}>
                     <img src="http://mattfarley.ca/img/mf-avatar.svg"
                          alt="img-face"
-                        onClick={() => dispatch(modalActions.toggleModal())}/>
+                         onClick={() => dispatch(modalActions.toggleModal())}/>
                 </motion.div>
                 <img src="http://mattfarley.ca/img/hero.svg" alt="desk"/>
             </div>

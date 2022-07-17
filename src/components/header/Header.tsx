@@ -1,16 +1,27 @@
 import {motion} from "framer-motion";
-import React from "react";
+import React, {useState} from "react";
 
 
 import "./header.css";
 import HeaderBtn from "./header-btn/HeaderBtn";
+import classNames from "classnames";
 
 
 const Header: React.FC = () => {
 
+    const [isScroll, setIsScroll] = useState<boolean>(false);
+
+    const changeBackGround = () =>{
+        if(window.scrollY > 90)
+            setIsScroll(true)
+        else
+            setIsScroll(false);
+    }
+
+    window.addEventListener('scroll', changeBackGround);
 
     return (
-        <div className="header">
+        <div className={classNames('header', isScroll && "header-scrolled")}>
             <motion.div className="logo"
                         initial="hidden"
                         animate={{y: 0, opacity: 1, transition: {delay: 0.1, type: "spring", duration: 0.6}}}

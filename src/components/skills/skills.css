@@ -16,12 +16,6 @@
     text-align: center;
 }
 
-/*.skills-card {*/
-/*    display: flex;*/
-/*    */
-/*    padding: 5px*/
-/*}*/
-
 .skills{
     display: flex;
     flex-direction: column;
@@ -42,7 +36,7 @@
 
 .gear-icon{
     width: 100%;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
 .skills-list{
@@ -56,12 +50,17 @@
 }
 
 .skills-card li {
-    font-size: 1.2rem;
+    position: relative;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .skills-card li::before {
+    position: absolute;
     content: "•";
     color: #7510F7;
+    left: -10px;
 }
 
 .skills-card li:hover{

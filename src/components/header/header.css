@@ -1,10 +1,20 @@
 
 .header{
+    position: fixed;
+    top:0;
     height: 80px;
     width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #fff;;
+    z-index: 3;
+    font-family: 'Spectral', serif;
+    font-size: 1.3rem;
+}
+
+.header-scrolled{
+    border-bottom: 1px solid #E6ECF8;
 }
 
 .logo{
@@ -15,8 +25,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.3rem;
-    font-family: 'Spectral', serif;
 }
 
 .header-content{
@@ -35,7 +43,6 @@
     justify-content: center;
     align-items: center;
     color: black;
-    font-size: 1.3rem;
     cursor: pointer;
     font-family: 'Spectral', serif;
 }
@@ -47,4 +54,10 @@
 
 .header a{
     text-decoration: none;
+}
+
+@media (max-width: 700px){
+    .header{
+        display: none;
+    }
 }

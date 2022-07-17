@@ -1,7 +1,7 @@
 .intro-content {
     min-height: 500px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -11,8 +11,15 @@
     text-align: center;
 }
 
-.intro-content h2, .intro-content h3 {
-    width: auto;
+.Typewriter{
+    padding: 0 10px;
+    min-height: 135px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.Typewriter__cursor{
+    color: #7510F7;
 }
 
 .img-container {
@@ -46,7 +53,7 @@
     border-radius: 30px;
     font-weight: 700;
     color: #7510F7;
-    opacity: 0;
+    opacity: 1;
     padding: 30px 15px;
 }
 
@@ -75,16 +82,3 @@
     height: 200px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
