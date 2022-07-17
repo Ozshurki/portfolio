@@ -7,7 +7,7 @@ const Skills: React.FC = () => {
         <>
             <div className="skills-container">
                 <h2>Skills</h2>
-                <p>During my experience in DevInt and my study I used diverse languages, tools and skills</p>
+                <p>During my experience in DevInt and the degree I used diverse languages, tools and skills</p>
             </div>
             <div className="skills-card">
                 <div>
