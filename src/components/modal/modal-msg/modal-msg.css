@@ -51,9 +51,37 @@
 }
 
 .modal-msg{
-    height: 80px;
+    height: 100px;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    cursor: pointer;
+}
+
+.modal-content i{
     font-family: 'Bebas Neue', cursive;
-    font-size: 2.5rem;
+    font-size: 3rem;
+}
+
+.modal-msg span{
+    position: relative;
+    filter: blur(7px);
+    padding: 0 18px;
+    transition: .6s;
+    height: 50px;
+}
+
+.modal-msg span:hover{
+    filter: blur(0px);
+    transition: 0s;
+}
+
+.modal-msg i {
+    position: absolute;
+    inset: 0;
+    background: transparent;
 }
 
 

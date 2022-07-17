@@ -16,28 +16,38 @@
     text-align: center;
 }
 
-.skills-card {
+/*.skills-card {*/
+/*    display: flex;*/
+/*    */
+/*    padding: 5px*/
+/*}*/
+
+.skills{
     display: flex;
+    flex-direction: column;
     margin-top: -40px;
-    width: 450px;
-    min-height: auto;
+    width: 350px;
+    min-height: 300px;
     border: 1px solid gainsboro;
     border-radius: 10px;
     box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%);
     background-color: white;
-
     margin-bottom: 100px;
 }
 
-.skills-card {
+.skills-card > div {
     display: flex;
     justify-content: space-evenly;
-    padding: 5px
 }
 
-.skills-card div {
+.gear-icon{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.skills-list{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .skills-card ul {
