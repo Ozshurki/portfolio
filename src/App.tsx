@@ -1,14 +1,21 @@
 import React from 'react';
 import {Routes, Route, Navigate} from "react-router-dom";
 import {BsFillArrowUpCircleFill} from "react-icons/bs";
+import {motion} from 'framer-motion';
+import {useSelector} from "react-redux";
 
 import Intro from "./pages/Intro";
 import Header from "./components/header/Header";
 import ScrollToTop from "./components/scroll-to-top/ScrollToTop";
-import {motion} from 'framer-motion';
+import Modal from "./components/modal/Modal";
+import ModalMsg from "./components/modal/modal-msg/ModalMsg";
+
 
 
 const App: React.FC = () => {
+
+    const showModal = useSelector((state: any) => state.modal.showModal);
+
 
     return (
         <div className="App">
@@ -26,6 +33,11 @@ const App: React.FC = () => {
                                          size="2rem"/>
 
             </motion.div>
+            {showModal &&
+            <Modal>
+                <ModalMsg/>
+            </Modal>
+            }
         </div>
     );
 };
