@@ -6,20 +6,20 @@ import {motion, useAnimation} from "framer-motion";
 
 const Skills: React.FC = () => {
 
-    // Activate element when 30% of him on the screen
+    // Activate element when 10% of him on the screen
     const [ref, inView] = useInView({threshold: 0.1});
     const animation = useAnimation();
 
     const handleAnimation = async () => {
         if (inView)
             await animation.start({
-                x: 0,
+                y: 0,
                 transition: {
                     type: 'spring', duration: 1.5, bounce: 0.3
                 }
             });
         else
-            await animation.start({x: '-100vw'});
+            await animation.start({y: '200px'});
     };
 
     useEffect(() => {

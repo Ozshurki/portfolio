@@ -1,7 +1,7 @@
 .intro-content {
     min-height: 500px;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 78px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -13,7 +13,7 @@
 
 .Typewriter{
     padding: 0 10px;
-    min-height: 135px;
+    min-height: 142px;
     font-size: 1.2em;
     font-weight: 600;
 }
@@ -42,7 +42,7 @@
 
 .cloud-container {
     position: relative;
-    margin-right: 80px;
+    margin-right: 10px;
     margin-bottom: -15px;
     height: 200px;
 }
@@ -79,6 +79,5 @@
 }
 
 .img-container img:nth-child(3) {
-    height: 200px;
-
+    height: 145px;
 }
