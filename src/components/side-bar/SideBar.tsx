@@ -1,9 +1,10 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import {BsPersonLinesFill} from "react-icons/bs";
 import {BiFile} from "react-icons/bi";
-import {MdAlternateEmail} from "react-icons/md";
+
 
 import {Sidebar, Hamburger, MainContent} from "./SideBar.Style"
+import {motion} from "framer-motion";
 
 
 const SideBar: React.FC = () => {
@@ -26,11 +27,10 @@ const SideBar: React.FC = () => {
                 </div>
                 <div className="item">
                     <div className="icon"><BiFile size="1.6rem"/></div>
-                    <div className="item-text">Resume</div>
-                </div>
-                <div className="item">
-                    <div className="icon"><MdAlternateEmail size="1.4rem"/></div>
-                    <div className="item-text">Contact me</div>
+                    <a className="item-text" href="/files/Oz_Shurki_CV.pdf"
+                              download>
+                        Resume
+                    </a>
                 </div>
             </MainContent>
         </Sidebar>

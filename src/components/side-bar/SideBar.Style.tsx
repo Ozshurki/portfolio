@@ -73,7 +73,7 @@ export const MainContent = styled.div`
   justify-content: space-evenly;
   overflow: hidden;
   
-  & div{
+  & div, a{
     width: 200px;
     height: 40px;
   }
@@ -104,6 +104,11 @@ export const MainContent = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  
+  & a{
+    text-decoration: none;
+    color: black;
   }
 
   @media (max-width: 700px) {

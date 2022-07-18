@@ -2,7 +2,7 @@ import React from 'react';
 import {Routes, Route, Navigate} from "react-router-dom";
 import {useSelector} from "react-redux";
 
-import Intro from "./pages/Intro";
+import Intro from "./pages/Intro/Intro";
 import Header from "./components/header/Header";
 import ScrollToTop from "./components/scroll-to-top/ScrollToTop";
 import Modal from "./components/modal/Modal";
@@ -23,7 +23,6 @@ const App: React.FC = () => {
             <ScrollToTop/>
             <Routes>
                 <Route path="/about-me" element={<Intro/>}/>
-                <Route path="/resume" element={<Intro/>}/>
                 <Route path="*" element={<Navigate to="/about-me"/>}/>
             </Routes>
             <ScrollUpBtn/>
