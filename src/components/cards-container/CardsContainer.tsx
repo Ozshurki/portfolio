@@ -22,7 +22,7 @@ const CardsContainer: React.FC = () => {
                 }
             });
         else
-            await animation.start({x: '-100vw'});
+            await animation.start({x: '-150vw'});
     };
 
     useEffect(() => {
