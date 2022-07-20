@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/oz-shurki-portfolio/static/css/main.732c4123.css",
-    "main.js": "/oz-shurki-portfolio/static/js/main.06b91b8e.js",
+    "main.js": "/oz-shurki-portfolio/static/js/main.e021674e.js",
     "index.html": "/oz-shurki-portfolio/index.html",
     "main.732c4123.css.map": "/oz-shurki-portfolio/static/css/main.732c4123.css.map",
-    "main.06b91b8e.js.map": "/oz-shurki-portfolio/static/js/main.06b91b8e.js.map"
+    "main.e021674e.js.map": "/oz-shurki-portfolio/static/js/main.e021674e.js.map"
   },
   "entrypoints": [
     "static/css/main.732c4123.css",
-    "static/js/main.06b91b8e.js"
+    "static/js/main.e021674e.js"
   ]
 }
