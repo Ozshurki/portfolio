@@ -40,7 +40,7 @@ const Header: React.FC = () => {
                             }}
                             animate={{y: 0, opacity: 1, transition: {delay: 0.4, type: "spring", duration: 0.6}}}
                             whileHover={{scale: 1.2, type: "spring"}}>
-                    <motion.a href="/files/Oz_Shurki_CV.pdf"
+                    <motion.a href="https://drive.google.com/file/d/14SqKsO5MaVopy1lLG5g2FNupuFYT3FNJ/view?usp=sharing.pdf"
                               download>
                         Resume
                     </motion.a>
