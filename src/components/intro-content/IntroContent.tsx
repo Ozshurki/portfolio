@@ -23,7 +23,7 @@ const IntroContent: React.FC = () => {
             <div className="img-container">
                 <motion.div className="cloud-container">
                     <motion.div className="click-me"> Click Me!</motion.div>
-                    <img src="/images/cloud-msg.png" alt="cloud"/>
+                    <img src="http://cdn.onlinewebfonts.com/svg/img_571103.png" alt="cloud"/>
                 </motion.div>
                 <motion.div className="avatar-container" whileHover={{rotate: 15}}>
                     <img src="http://mattfarley.ca/img/mf-avatar.svg"

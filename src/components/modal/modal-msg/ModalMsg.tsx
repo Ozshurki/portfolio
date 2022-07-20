@@ -45,7 +45,6 @@ const Error: React.FC= () => {
                         exit="hidden">
                 <motion.div className="modal-container" variants={modalVariants}>
                     <div className="modal-header">
-                        <BiCommentError color="black" size="1.5rem"/>
                         <div className="modal-close-btn">
                             <GrFormClose onClick={() => dispatch(modalActions.toggleModal())}
                                          color="black"

@@ -42,14 +42,14 @@
 
 .cloud-container {
     position: relative;
-    margin-right: 10px;
+    margin-right: -10px;
     margin-bottom: -15px;
     height: 200px;
 }
 
 .click-me{
     position: absolute;
-    top: 45px;
+    top: 30px;
     border-radius: 30px;
     font-weight: 700;
     color: #7510F7;
