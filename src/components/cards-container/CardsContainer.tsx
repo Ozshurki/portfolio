@@ -43,6 +43,23 @@ const CardsContainer: React.FC = () => {
                 </div>
                 <div className="col">
                     <div className="icon-container">
+                        <BiShoppingBag color={"#7510F7"} size={"3rem"}/>
+                    </div>
+                    <h2>Experience</h2>
+                    <p>February 2020 - January 2022</p>
+                    <p>Full Stack developer at DevInt <br/>
+                        DevInt developed websites for small business</p>
+                    <p>Also I led End-To-End projects myself -
+                        <br/> <br/>
+                        <span>
+                        <a href="https://github.com/Ozshurki/nofar-ecommerce" target="_blank">
+                            <strong>Example</strong>
+                        </a>
+                    </span>
+                    </p>
+                </div>
+                <div className="col">
+                    <div className="icon-container">
                         <HiCode color={"#7510F7"} size={"3rem"}/>
                     </div>
                     <h2>Full-Stack / Front-End</h2>
@@ -68,23 +85,6 @@ const CardsContainer: React.FC = () => {
                             </ul>
                         </div>
                     </div>
-                </div>
-                <div className="col">
-                    <div className="icon-container">
-                        <BiShoppingBag color={"#7510F7"} size={"3rem"}/>
-                    </div>
-                    <h2>Experience</h2>
-                    <p>February 2020 - January 2022</p>
-                    <p>Full Stack developer at DevInt <br/>
-                        DevInt developed websites for small business</p>
-                    <p>Also I led End-To-End projects myself -
-                        <br/> <br/>
-                        <span>
-                        <a href="https://github.com/Ozshurki/nofar-ecommerce" target="_blank">
-                            <strong>Example</strong>
-                        </a>
-                    </span>
-                    </p>
                 </div>
             </motion.div>
         </div>

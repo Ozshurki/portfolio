@@ -42,6 +42,7 @@
 .skills-list{
     display: flex;
     justify-content: space-evenly;
+    font-size: 0.9rem;
 }
 
 .skills-card ul {

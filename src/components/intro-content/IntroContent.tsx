@@ -30,7 +30,7 @@ const IntroContent: React.FC = () => {
                          alt="img-face"
                          onClick={() => dispatch(modalActions.toggleModal())}/>
                 </motion.div>
-                <img src="http://mattfarley.ca/img/hero.svg" alt="desk"/>
+                <img src="http://mattfarley.ca/img/hero-devices.svg" alt="desk"/>
             </div>
         </div>
     );
