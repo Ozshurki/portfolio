@@ -22,8 +22,8 @@ const App: React.FC = () => {
             <SideBar/>
             <ScrollToTop/>
             <Routes>
-                <Route path="/about-me" element={<Intro/>}/>
-                <Route path="*" element={<Navigate to="/about-me"/>}/>
+                <Route path="/portfolio" element={<Intro/>}/>
+                <Route path="*" element={<Navigate to="/portfolio"/>}/>
             </Routes>
             <ScrollUpBtn/>
             {showModal &&
