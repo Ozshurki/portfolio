@@ -13,7 +13,7 @@ const IntroContent: React.FC = () => {
     const dispatch = useDispatch();
 
     return (
-        <div className="intro-content">
+        <div className="intro-container">
             <Typewriter
                 onInit={(typewriter => {
                     typewriter.changeDelay(50).typeString('Full-stack / Front-end Developer <br/>' +
