@@ -25,6 +25,7 @@
 .img-container {
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 .img-container img:nth-child(1), .img-container img:nth-child(2){
