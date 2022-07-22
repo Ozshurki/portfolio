@@ -1,4 +1,4 @@
-.intro-content {
+.intro-content{
     min-height: 500px;
     width: 100%;
     margin-top: 78px;
@@ -30,6 +30,10 @@
 .img-container img:nth-child(1), .img-container img:nth-child(2){
     height: 150px;
     width: 150px;
+}
+
+.cloud-container div{
+    cursor: pointer;
 }
 
 .cloud-container, .avatar-container{

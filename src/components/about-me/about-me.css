@@ -1,7 +1,7 @@
 .about-me-container{
     display: flex;
     flex-direction: column;
-    padding: 50px 15px 0 15px;
+    padding: 15px 15px 0 15px;
     align-items: center;
     min-height: 340px;
     width: 100%;
@@ -10,11 +10,10 @@
 }
 
 .about-me-container p{
-    max-width: 500px;
+    max-width: 600px;
     font-size: 1.2em;
     text-align: center;
     transition: font-size .3s;
-
 }
 
 @media (max-width: 345px){

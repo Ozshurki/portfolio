@@ -38,7 +38,7 @@ const CardsContainer: React.FC = () => {
                         <IoMdSchool color={"#7510F7"} size={"3rem"}/>
                     </div>
                     <h2>Degree</h2>
-                    <p>Bachelor Of Science (Bs.C) In Computer Science</p>
+                    <p>Bachelor Of Science (Bs.C) In Computer Science at Hadassah Academic College</p>
                     <p>GPA: 85%</p>
                 </div>
                 <div className="col">
@@ -49,7 +49,7 @@ const CardsContainer: React.FC = () => {
                     <p>February 2020 - January 2022</p>
                     <p>Full Stack developer at DevInt <br/>
                         DevInt developed websites for small business</p>
-                    <p>Also I led End-To-End projects myself -
+                    <p>Also I led End-To-End projects by myself -
                         <br/> <br/>
                         <span>
                         <a href="https://github.com/Ozshurki/nofar-ecommerce" target="_blank">

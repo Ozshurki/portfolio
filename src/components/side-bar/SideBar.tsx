@@ -3,7 +3,7 @@ import {BsPersonLinesFill} from "react-icons/bs";
 import {BiFile} from "react-icons/bi";
 
 
-import {Sidebar, Hamburger, MainContent} from "./SideBar.Style"
+import {Sidebar, Hamburger, MainContent} from "./SideBar.Style";
 import {motion} from "framer-motion";
 
 
@@ -27,8 +27,9 @@ const SideBar: React.FC = () => {
                 </div>
                 <div className="item">
                     <div className="icon"><BiFile size="1.6rem"/></div>
-                    <a className="item-text" href="/files/Oz_Shurki_CV.pdf"
-                              download>
+                    <a className="item-text"
+                       href="https://drive.google.com/file/d/14SqKsO5MaVopy1lLG5g2FNupuFYT3FNJ/view?usp=sharing"
+                       download>
                         Resume
                     </a>
                 </div>
