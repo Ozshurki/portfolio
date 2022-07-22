@@ -1,5 +1,5 @@
-.intro-container {
-    min-height: 700px;
+.intro-container{
+    min-height: 500px;
     width: 100%;
     margin-top: 78px;
     display: flex;
@@ -11,14 +11,14 @@
     text-align: center;
 }
 
-.Typewriter {
+.Typewriter{
     padding: 0 10px;
-    min-height: 260px;
+    min-height: 142px;
     font-size: 1.2em;
     font-weight: 600;
 }
 
-.Typewriter__cursor {
+.Typewriter__cursor{
     color: #7510F7;
 }
 
@@ -27,16 +27,16 @@
     flex-direction: column;
 }
 
-.img-container img:nth-child(1), .img-container img:nth-child(2) {
+.img-container img:nth-child(1), .img-container img:nth-child(2){
     height: 150px;
     width: 150px;
 }
 
-.cloud-container div {
+.cloud-container div{
     cursor: pointer;
 }
 
-.cloud-container, .avatar-container {
+.cloud-container, .avatar-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +51,7 @@
     height: 200px;
 }
 
-.click-me {
+.click-me{
     position: absolute;
     top: 30px;
     border-radius: 30px;
@@ -61,7 +61,7 @@
     padding: 30px 15px;
 }
 
-.click-me:hover {
+.click-me:hover{
     opacity: 1;
     transition: opacity .3s ease-in;
 }
@@ -78,7 +78,7 @@
     border-radius: 50%;
 }
 
-.avatar-container img {
+.avatar-container img{
     border-radius: 50%;
 }
 
