@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
             <p>The journey of a thousand miles begins with one step</p>
             <div className="social-links">
                 <div className="social-link">
-                    <a href="https://www.linkedin.com/in/oz-shurki-62377a212/" target="_blank">
+                    <a href="https://www.linkedin.com/in/oz-shurki/" target="_blank">
                         <AiOutlineLinkedin className="linkedin-icon"
                                            size="1.7rem"
                                            color="white"/>

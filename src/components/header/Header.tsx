@@ -41,7 +41,7 @@ const Header: React.FC = () => {
                             animate={{y: 0, opacity: 1, transition: {delay: 0.4, type: "spring", duration: 0.6}}}
                             whileHover={{scale: 1.2, type: "spring"}}>
                     <motion.a
-                        href="https://drive.google.com/file/d/1sP3M9mPIRRD8dPEpD1JOuLC5HZEc-lKZ/view?usp=sharing"
+                        href="https://drive.google.com/file/d/12xrMs09WKne0jg6Sm5WHE4lubUEaW_vU/view?usp=sharing"
                         download
                         target="_blank">
                         Resume
