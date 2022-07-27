@@ -2,10 +2,7 @@ import React, {useState} from 'react';
 import {BsPersonLinesFill} from "react-icons/bs";
 import {BiFile} from "react-icons/bi";
 
-
 import {Sidebar, Hamburger, MainContent} from "./SideBar.Style";
-import {motion} from "framer-motion";
-
 
 const SideBar: React.FC = () => {
 
@@ -28,7 +25,7 @@ const SideBar: React.FC = () => {
                 <div className="item">
                     <div className="icon"><BiFile size="1.6rem"/></div>
                     <a className="item-text"
-                       href="https://drive.google.com/file/d/12xrMs09WKne0jg6Sm5WHE4lubUEaW_vU/view?usp=sharing"
+                       href="https://drive.google.com/file/d/1x5NXCQpVZq95ygxYu9A1T7S199RAfJ1o/view?usp=sharing"
                        download>
                         Resume
                     </a>
