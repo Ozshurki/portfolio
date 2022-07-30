@@ -25,7 +25,7 @@ const SideBar: React.FC = () => {
                 <div className="item">
                     <div className="icon"><BiFile size="1.6rem"/></div>
                     <a className="item-text"
-                       href="https://drive.google.com/file/d/1x5NXCQpVZq95ygxYu9A1T7S199RAfJ1o/view?usp=sharing"
+                       href="https://drive.google.com/file/d/1OhfCO5n4aS7MNEC311G3kFocR0UWJi46/view?usp=sharing"
                        download>
                         Resume
                     </a>
